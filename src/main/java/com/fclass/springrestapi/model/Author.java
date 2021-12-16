@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import java.util.List;
 
 @Entity
-public class Comedian {
+public class Author {
     @Id
     int id;
     String name;
@@ -48,7 +48,7 @@ public class Comedian {
 
     @Override
     public String toString() {
-        return "Comedian{" +
+        return "Author{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
